@@ -1,0 +1,1070 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+#root {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+.container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 90vh; /* or any height you need */
+  background-color: #000000;
+
+}
+.text{
+	display: block;
+    font-family: Barlow;
+	color: white;
+ 	  justify-content: center;  /* horizontal */
+	   align-items: center;      /* vertical */
+	   text-align:center; 
+}
+
+.btnIntro {
+    background-color: rgba(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: auto;
+    margin-top: 50px;
+    /* margin-right: 10px; */
+}
+
+.btnIntro:hover {
+    background-color: #000000;
+    color: white;
+	    border: 2px solid rgb(255, 255, 255);
+}
+
+.responsive {
+    display: block;
+  width: 100px;
+  height: auto;
+   	  justify-content: center;  /* horizontal */
+	   text-align:center; 
+       margin: auto;
+}
+.footer{
+    display: block;
+font-family: Barlow;
+	color: white;
+	  justify-content: center; /* horizontal */
+	  align-items: center;     /* vertical */
+	  text-align:center;
+/* 	  z-index: 1;
+ */	    position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  margin: auto;
+    background-color: #000000;
+
+}
+/* #renderWindow {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+} */
+.header {
+    display: block;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: auto;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.expanded {
+    background-color: #000000;
+    border: 2px solid black;
+    color: white;
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    width: auto;
+    margin-right: 10px;
+}
+
+.stepNaviBtn {
+    background-color: rgb(255, 255, 255);
+    border: 0px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100%;
+    text-align: left;
+}
+
+.stepNaviBtn:hover {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+}
+
+.stepNaviBtn:active {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+
+.stepNaviBtnMobile {
+    background-color: rgb(255, 255, 255);
+     border: 0px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100%;
+    text-align: left;
+/*     margin-bottom: -1px;
+ */    
+}
+
+.stepNaviBtnMobile:hover {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+ 
+
+}
+
+.stepNaviBtnMobile:active {
+    background-color: #3e3e3e;
+    color: white;
+
+}
+
+.parts {
+    background-color: rgb(255, 255, 255);
+    border: 0px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100%;
+    text-align: left;
+}
+
+.parts:hover {
+    background-color: #d9e3e3;
+    color: rgb(0, 0, 0);
+}
+
+.parts:active {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.hamburger {
+    border: 1;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 00%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+/* .hamburger:hover {
+    background-color: #000000;
+    color: white;
+} */
+.hamburgerStepNavi {
+    border: 1;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 00%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+  left: 16px;
+  top: 60px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+/* .hamburgerStepNavi:hover {
+    background-color: #000000;
+    color: white;
+} */
+
+.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+
+#app {
+    /*    display: block;
+ */
+    margin-top: 20px;
+    height: 100%;
+}
+
+#partsOut {
+    position: absolute;
+    /*  display: none; */
+    top: 20px;
+    right: 20px;
+}
+
+.remarksCollapsible {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: auto;
+    margin-right: 10px;
+    display: none;
+}
+
+.remarksContent {
+    position: absolute;
+    padding: 0 10px;
+    /* display: none; */
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    top: 60px;
+    display: none;
+
+}
+
+.remarksContent li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    background-color: #ffffff;
+}
+
+.howToBoxContent {
+    position: absolute;
+    padding: 0 10px;
+    /* display: none; */
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    top: 60px;
+    text-decoration: none;
+}
+
+.howToBoxContent li {
+    list-style-type: none;
+    /*     padding: 10px;
+ */
+    width: 180px;
+    background-color: #ffffff;
+}
+
+.howToBoxContent li a {
+    list-style-type: none;
+    /* padding: 10px; */
+    width: 180px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.infoColumn {
+    display: block;
+    position: absolute;
+    flex: 0.5;
+    float: left;
+    width: 220px;
+    height: calc(100% - 160px);
+    overflow: auto;
+    padding-right: 10px;
+
+}
+
+.stepNavi {
+    position: fixed;
+    flex: 1;
+    padding-left: 16px;
+        padding-right: 16px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: calc(100% - 110px);
+
+}
+
+
+.stepNavi ul {
+    overflow: auto;
+}
+
+.stepNavi li {
+    font-family: Barlow;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+
+.stepNaviMobile {
+    position: absolute;
+    flex: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+margin-top: 60px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: calc(100% - 110px);
+ z-index: 100;
+}
+
+
+.stepNaviMobile ul {
+    overflow: auto;
+    border: 2px solid black;
+}
+
+.stepNaviMobile li {
+    font-family: Barlow;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/* h2 {
+    margin: 0px;
+    float: left;
+} */
+
+.navMenu {
+    margin-left: auto;
+    /*     display: inline;
+    float: right;
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    color: rgb(0, 0, 0); */
+    z-index: 1;
+}
+
+.navMenu ul {
+    display: flex;
+    padding: 0;
+}
+
+.navMenu li {
+    list-style-type: none;
+    margin: 0 0.5rem;
+}
+
+/* Style the links inside the navigation bar */
+.navMenu li a {
+    /*     float: left;
+            display: inline; */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+
+}
+
+/* Change the color of links on hover */
+.navMenu li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Add an active class to highlight the current page */
+.navMenu li a.active {
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-width: 2px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navMenu .icon {
+    display: none;
+}
+
+.navMenuMobile {
+    color: rgb(0, 0, 0);
+    position: absolute;
+ /*   flex: 1;
+     display: flex;
+    flex-direction: column; */
+    width: auto;
+    right: 15px;
+    margin-top: 420px;
+    z-index: 100;
+    background-color: rgba(255, 255, 255);
+
+}
+.navMenuMobile ul {
+    display: block;
+    padding: 0;
+    border: 2px solid black;
+}
+.navMenuMobile li {
+    list-style-type: none;
+    text-decoration: none;
+        font-family: Barlow;
+        text-align: center;
+}
+.navMenuMobile li a {
+    /*     float: left;
+            display: inline; */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+
+}
+
+.navMenuMobile li a:hover {
+    background-color: #d6d6d6;
+}
+
+.navMenuIntro {
+    margin-left: 80%;
+    color: #ffffff;
+}
+.navMenuIntro ul {
+    display: flex;
+    padding: 0;
+}
+
+.navMenuIntro li {
+    list-style-type: none;
+    margin: 0 0.5rem;
+}
+.navMenuIntro li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+
+}
+
+/* Change the color of links on hover */
+.navMenuIntro li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(97, 97, 97);
+}
+
+/* Add an active class to highlight the current page */
+.navMenuIntro li a.active {
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-width: 2px;
+}
+
+
+.mainLogo {
+    height: 25px;
+    display: block;
+}
+.reducedLogo {
+    height: 25px;
+    display: none
+}
+
+.Title {
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    /* margin-left: 80px; */
+    font-family: Barlow;
+    font-size: 30px;
+/*     display: flex;
+ */    overflow: hidden;
+ width: 100%;
+}
+
+/* #info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+ */
+.currentStepBar {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#stepTitleArea {
+    font-family: Barlow;
+    font-size: 24px;
+    padding-top: 5px;
+        margin: 0px;
+    float: left;
+    height: fit-content;
+}
+
+#laserTitleArea {
+    font-family: Barlow;
+    font-size: xx-large;
+    padding-top: 5px;
+        margin: 0px;
+    float: left;
+    height: fit-content;
+    padding-left: 200px;
+    z-index: -1;
+}
+
+#stepControl {
+    position: relative;
+    display: block;
+    float: right;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+#previousStep {
+    display: none;
+}
+
+#viewArea {
+    margin-left: auto;
+    position: relative;
+    display: block;
+    width: calc(100% - 220px);
+    height: 100%;
+    padding: 10px;
+    z-index: 5;
+}
+
+#viewAreaPlaceholder {
+    margin-left: auto;
+    position: relative;
+    /* display: flex; */
+    width: calc(100% - 500px);
+    height: 200%;
+    padding: 10px;
+    z-index: 5;
+}
+
+/* #3DViewer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+} */
+
+.backgroundLoad {
+    position: relative;
+    /* margin-left: calc(100% - 700px); */
+    margin-top: -400px;
+    padding: 10px;
+    z-index: -3;
+    font-family: Barlow;
+    font-size: medium;
+    text-align: center;
+}
+
+#currentStepArea {
+    margin-left: 240px;
+    /*     display: block; */
+    margin-right: 20px;
+    height: 100%;
+    height: calc(100% - 150px);
+}
+#currentLaserArea {
+    margin-left: 300px;
+    /*     display: block; */
+    margin-right: 20px;
+    height: 100%;
+    height: calc(100% - 150px);
+}
+
+#HowToArea {
+    margin-left: 370px;
+    /*     display: block; */
+    margin-right: 20px;
+    height: calc(100% - 100px);
+}
+
+#HowToImgArea {
+    margin-left: auto;
+    /*     position: absolute;
+    display: block; */
+    float: left;
+    /*     display: block; */
+    margin-right: 20px;
+    /* width: calc(100% - 370px); */
+    height: calc(100%);
+    width: calc(70%);
+    padding: 10px;
+}
+
+#HowToTextArea {
+    /*     margin-left: auto;
+    position: relative;
+    display: flex; */
+    float: left;
+    margin-right: 20px;
+    height: calc(100% - 100px);
+    width: 20%;
+    padding: 10px;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+.HowToTextAreaList {
+    list-style-type: none;
+    padding-bottom: 10px;
+    /* Remove bullets */
+}
+
+.HowToTitle {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.stepPartsArea {
+    margin-top: 10px;
+    display: block;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+    #RemarksTitle{
+        margin: 'auto';
+        display: 'inline';
+        
+    }
+
+.stepRemarksArea {
+    margin-top: 30px;
+    display: block;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+.stepRemarksArea li {
+    padding-bottom: 10px;
+
+}
+
+.sectionLaser {
+        font-family: Barlow;
+        /* padding-right: 10px; */
+        height: 90%;
+        overflow-y: auto;
+        margin-top: 40px;
+        padding-left: 200px;
+        padding-right: 20%;
+
+}
+.sectionLaser li {
+        list-style-type: none;
+
+}
+
+.sectionTitle{
+    font-size: x-large;
+margin-bottom: 20px
+}
+
+.sectionImage{
+display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 30%;
+  max-height: 600px;
+  max-width: fit-content;
+  width: auto;
+padding: 30px;
+}
+.textArea{
+            height: 100%;
+}
+.laserNavi{
+    float: right;
+    padding-right: 20%;
+}
+
+.iFrame{
+    width: 100%;
+        margin-top: 30px;
+height: 600px;
+border: 0px;
+}
+.bomTable, td, th {
+  border: 1px solid;
+  padding: 10px;
+  font-size: small;
+}
+.bomTable{
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1300px) {
+    .textArea{
+margin-top: 30px;
+padding-top: 50px;
+}
+.laserNavi{
+    padding-right: 30px;
+    margin-top: -40px;
+}
+#laserTitleArea {
+    font-family: Barlow;
+    font-size: xx-large;
+    padding-top: 0px;
+        margin: 0px;
+    float: left;
+    width: 100%;
+    height: fit-content;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    order: 1;
+}
+
+.sectionLaser {
+        font-family: Barlow;
+        height: 90%;
+        overflow-y: auto;
+        padding-left: 20%;
+        padding-right: 20%;
+}
+
+.sectionImage{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+padding: 30px;
+width: 100%;
+}
+      .navMenu ul {
+        display: none;
+    }
+    .navMenuIntro {
+        margin-left: 50%;
+    }
+    .hamburger {
+        display: block;
+    } 
+    .hamburgerStepNavi {
+        display: inline;
+        width: auto;
+        position: absolute;
+        margin-top: 36px;
+        z-index: 100;
+    }
+
+    .stepNavi {
+        display: none;
+        position: static;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+        #currentStepArea{
+    margin-left: 16px;
+         display: block;
+    margin-right: 20px;
+    margin-top: 80px;
+
+    }
+            #currentLaserArea{
+    margin-left: 20px;
+    display: block; 
+    margin-right: 20px;
+    margin-top: 60px;
+    }
+     .currentStepBar{
+        position: absolute;
+        float: right;
+        margin-right: 16px;
+        display: block;
+
+    }
+        #stepTitleArea{
+        display: block;
+        position: absolute;
+        width: 100%;
+        order:1;
+        font-size: 22px;
+    }
+        .infoColumn{
+         position: absolute;
+ /*         display: block;
+ */        height: calc(100% - 250px);
+         order: 2; 
+                 margin-top: 60px;
+/*                  width: 100%;
+ */                 overflow: auto;
+
+    }
+    #viewArea {
+           margin-left: auto;
+    position: relative;
+    display: block;
+    width: calc(100% - 220px);
+    height: calc(100% - 100x);
+    z-index: 5;
+    padding: 0px;
+padding-top: 60px;
+padding-bottom: 5px;
+    }
+
+    #stepControl{
+        margin-top: -60px;
+        margin-right: 22px;
+    }
+    #partsOut{
+margin-top: 60px; 
+margin-right: 2px;
+   }
+
+}
+
+
+@media screen and (max-width: 720px) {
+    
+    .mainLogo{
+        display: none;
+    }
+    .reducedLogo{
+        display: block;
+    }
+    #stepTitleArea{
+        display: block;
+        position: absolute;
+        margin-top: 0px;
+        width: 100%;
+        order:1;
+        font-size: 22px;
+    }
+    #laserTitleArea{
+        width: 300px;
+    }
+    .laserNavi{
+    padding-right: 0px;
+    margin-top: -60px;
+}
+    .currentStepBar{
+        position: absolute;
+        float: right;
+        margin-right: 16px;
+        display: block;
+    }
+    #currentStepArea{
+        margin-left: 16px;
+        margin-right: 16px;
+        position: relative;
+        display: flex;
+        width: calc(100% - 30px);
+    }
+        #currentLaserArea{
+            padding-top: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        position: relative;
+        display: flex;
+        width: calc(100% - 30px);
+
+    }
+    .infoColumn{
+        position: absolute;
+        display: block;
+        height: 150px;
+         order: 2; 
+                 margin-top: 60px;
+                 width: 100%;
+                 overflow: auto;
+
+    }
+    #viewArea {
+        display:block;
+        width: calc(100% - 30px);
+        height: calc(100% - 350px);
+        position: fixed;
+        padding: 0px;
+        order: 3;
+        bottom: 16px;
+    }
+
+        .textArea {
+        display:block;
+        width: calc(100% - 30px);
+        height: calc(100% - 100px);
+        position: fixed;
+        padding: 0px;
+        order: 3;
+        bottom: 50px;
+    }
+
+    #HowToImgArea {
+        width: 100%;
+    }
+
+    #HowToTextArea {
+        width: 100%;
+    }
+
+    .remarksCollapsible{
+        display: flex;
+
+    }
+    .remarksContent{
+        display: block;
+    }
+    .stepRemarksArea{
+        display: none;
+    }
+    #RemarksTitle{
+        display: none;
+    }
+#laserTitleArea{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+.sectionLaser{
+        padding-left: 0%;
+    padding-right: 0%;
+    height: calc(100% - 60px) ;
+    margin-top: 80px;
+}
+
+#partsOut{
+margin-top: 0px;
+}
+
+#stepControl{
+    margin-right: -10px;
+}
+
+.textArea{
+    padding-top: 80px;
+}
+
+    
+}
+
+/*Scroll Bar Styling*/
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(227, 227, 227);
+    /*     box-shadow: inset 0 0 5px grey;
+ */
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(159, 159, 159);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(79, 79, 79);
+}

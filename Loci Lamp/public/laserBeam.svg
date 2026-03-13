@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373.93 369.43">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 5 5 5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #f6ad60;
+      }
+
+      .cls-6 {
+        fill: #ef8356;
+      }
+
+      .cls-7 {
+        font-family: Barlow-Medium, Barlow;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 5.41 5.41 5.41 5.41 5.41 5.41;
+      }
+
+      .cls-9 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        fill: #e9584b;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-5" points="131.89 1.43 105.89 1.43 105.89 117.43 117.24 282.43 111.26 369.43 126.53 369.43 120.55 282.43 131.89 117.43 131.89 1.43"/>
+  <polygon class="cls-6" points="110.19 179.93 117.24 282.43 111.26 369.43 126.53 369.43 120.55 282.43 127.6 179.93 110.19 179.93"/>
+  <path d="M118.89,118.18c17.99,0,36.24,3.95,54.25,11.74v11.76h-108.5v-11.76c18.01-7.79,36.26-11.74,54.25-11.74M118.89,117.43c-18.33,0-36.67,4-55,12v13h110v-13c-18.33-8-36.67-12-55-12h0Z"/>
+  <path d="M237.04,259.18v47.5H.75v-47.5h236.29M237.79,258.43H0v49h237.79v-49h0Z"/>
+  <text class="cls-7" transform="translate(285.64 15.3)"><tspan x="0" y="0">laser </tspan><tspan class="cls-8" x="42.23" y="0">b</tspan><tspan class="cls-4" x="52.07" y="0">e</tspan><tspan x="61.63" y="0">am</tspan></text>
+  <text class="cls-7" transform="translate(285.64 138.33)"><tspan x="0" y="0">lens</tspan></text>
+  <text class="cls-7" transform="translate(285.64 290.06)"><tspan x="0" y="0">m</tspan><tspan class="cls-10" x="14.87" y="0">a</tspan><tspan class="cls-11" x="24.05" y="0">t</tspan><tspan x="30.47" y="0">erial</tspan></text>
+  <text class="cls-7" transform="translate(285.64 229.19)"><tspan class="cls-9" x="0" y="0">f</tspan><tspan x="5.87" y="0">ocus </tspan><tspan class="cls-1" x="47.38" y="0">p</tspan><tspan x="57.31" y="0">oint</tspan></text>
+  <circle class="cls-3" cx="118.89" cy="282.93" r="15.5"/>
+  <polyline class="cls-2" points="131.89 273.15 184.75 224.29 269.89 224.29"/>
+  <polygon class="cls-12" points="112.66 349.01 125.12 349.01 120.55 282.43 125.06 216.86 112.73 216.86 117.24 282.43 112.66 349.01"/>
+</svg>

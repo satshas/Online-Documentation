@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 497 549.95">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-width: 5px;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: #e30613;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 5 5 5;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-6" x="37.85" y="331.58" width="342.7" height="217.87"/>
+    <path d="M380.04,332.08v216.87H38.35v-216.87h341.7M381.04,331.08H37.35v218.87h343.7v-218.87h0Z"/>
+  </g>
+  <path class="cls-7" d="M108.3,439.91l46.83,81.12H61.46l46.83-81.12M108.3,437.91l-48.57,84.12h97.13l-48.57-84.12h0Z"/>
+  <g>
+    <polygon class="cls-3" points="48.91 496.66 45.26 505.47 52.57 505.47 48.91 496.66"/>
+    <polyline class="cls-2" points="87.66 535.41 48.91 535.41 48.91 496.66"/>
+    <polygon class="cls-3" points="87.66 535.41 78.85 531.76 78.85 539.06 87.66 535.41"/>
+  </g>
+  <g>
+    <rect class="cls-6" x="37.85" y="79.11" width="342.7" height="217.87"/>
+    <path d="M380.04,79.61v216.87H38.35V79.61h341.7M381.04,78.61H37.35v218.87h343.7V78.61h0Z"/>
+  </g>
+  <path class="cls-7" d="M108.3,2l46.83,81.12H61.46L108.3,2M108.3,0l-48.57,84.12h97.13L108.3,0h0Z"/>
+  <g>
+    <polygon class="cls-3" points="48.91 58.75 45.26 67.56 52.57 67.56 48.91 58.75"/>
+    <polyline class="cls-2" points="87.66 97.5 48.91 97.5 48.91 58.75"/>
+    <polygon class="cls-3" points="87.66 97.5 78.85 93.84 78.85 101.15 87.66 97.5"/>
+  </g>
+  <line class="cls-4" y1="315.77" x2="497" y2="315.77"/>
+  <line class="cls-1" x1="434.61" y1="168.64" x2="477.65" y2="211.69"/>
+  <line class="cls-1" x1="477.65" y1="168.64" x2="434.61" y2="211.69"/>
+  <polyline class="cls-5" points="434.61 422.23 457.93 445.63 492.74 403.82"/>
+</svg>
